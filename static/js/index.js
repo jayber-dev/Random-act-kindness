@@ -4,7 +4,7 @@ const phrase = "Random act of kindness";
 let i = 0;
 
 function writer() {
-    const timer = setTimeout(writer, 90)
+    const timer = setTimeout(writer, 100)
 
     if (i < phrase.length) {
         heading.innerHTML += phrase[i];
