@@ -14,17 +14,28 @@
 </head>
 
 <body onload="writer()">
+    <nav class="w3-container w3-bar  w3-row-padding ">
+        <div class="w3-bar-item w3-hide-small">
+            <img class="" src="/static/pics/transparent-vector-hand-two-hands-icon.png" alt="">
+        </div>
+        <div class="w3-bar-item w3-mobile">
+            <a href="">Login</a>
+        </div>
+        <div class="w3-bar-item w3-mobile">
+            <a href="">Register</a>
+        </div>
+    </nav>
     <div class="font w3-container fade-in">
         <h2 class="head-font w3-cell-middle w3-display-middle" id="main-head"></h2>
         <div id="paragraph" class="w3-hide w3-display-middle fade-in">
-            <p class="">Do you choose to execept ?</p>
+            <p class="">Do you choose to accept ?</p>
             <div class="">
                 <div class="w3-half button-hover">
-                    <button id="">Yes</button>
-                    <small> *for better expirience please login or register </small>
+                    <button id=""><a href="{{url_for('home')}}">Yes</a></button>
+                    <small> *for better expirience please <a href="#"><strong>login</strong> </a>  or <a href="#"><strong>register</strong> </a>  </small>
                 </div>
                 <div class="w3-half w3-cell-middle">
-                    <button>No</button>
+                    <button><a href="{{url_for('home')}}">No</a> </button>
                 </div>
             </div>
         </div>

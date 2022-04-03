@@ -2,9 +2,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Send+Flowers&display=swap');
 body {
-    margin: 0;
-    background: linear-gradient(217deg, white, rgba(174, 212, 143, 0.8)), linear-gradient(127deg, white, rgba(174, 212, 143, 0.8));
+    margin: 10px;
+    background: linear-gradient(to right, white, rgba(174, 212, 143, 0.8));
     font-family: 'Send Flowers', cursive;
+}
+
+nav>div>a {
+    color: darkgreen;
+    margin: 30px;
+    font-size: 25px;
+}
+
+img {
+    border-radius: 10px;
+    margin-left: 20px;
+    height: 35px;
 }
 
 .head-font {
@@ -37,6 +49,14 @@ button {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: block;
     color: darkgreen;
+}
+
+a {
+    text-decoration: none;
+}
+
+small>a {
+    text-decoration: underline;
 }
 
 small {
