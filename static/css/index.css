@@ -33,6 +33,16 @@ button {
     font-size: 30px;
 }
 
+.button-hover:hover small {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    color: darkgreen;
+}
+
+small {
+    display: none;
+}
+
 @keyframes fade-out {
     0% {
         opacity: 1;
