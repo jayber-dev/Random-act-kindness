@@ -25,9 +25,6 @@ function writer() {
                 paragraph.classList = "w3-show w3-display-middle fade-in"
         }, 2500);
     }
-
-
     i++
 
-    console.log(i)
 }
