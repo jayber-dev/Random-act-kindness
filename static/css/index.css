@@ -1,0 +1,57 @@
+/* global background-color: rgba(174, 212, 143, 0.8);; */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Send+Flowers&display=swap');
+body {
+    margin: 0;
+    background: linear-gradient(217deg, white, rgba(174, 212, 143, 0.8)), linear-gradient(127deg, white, rgba(174, 212, 143, 0.8));
+    font-family: 'Send Flowers', cursive;
+}
+
+.head-font {
+    border-bottom: 2px solid;
+    font-family: 'Send Flowers';
+    font-size: 80px;
+    color: darkgreen;
+    animation-name: fade-out;
+    animation-delay: 2s;
+    animation-duration: 3s;
+}
+
+p {
+    color: darkgreen;
+    font-size: 30px;
+}
+
+button {
+    margin-left: 25%;
+    margin-top: 2%;
+    width: 50px;
+    color: darkgreen;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 30px;
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.fade-in {
+    animation-name: fade-in;
+    animation-duration: 3s;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
